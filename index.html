@@ -25,14 +25,121 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                'rinterio-primary': '#ABEF5F',
+                'rinterio-secondary': 'rgba(171, 239, 95, 0.5)',
+                'gray-primary': '#737373',
+
               }
             }
           }
         }
       </script>
 </head>
-<body>
-    <h1>hekejjdaindc</h1>
+<body class="font-manrope  bg-gray-100">
+    <!-- header section -->
+     <header class="bg-white ">
+        <!-- navigation bar section -->
+        <div class="navbar container mx-auto">
+            <div class="flex-1">
+                <div class="dropdown ">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars "></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                      
+                  </div>
+              <a class="btn btn-ghost text-xl">
+                <button class=""><i class="text-3xl font-extrabold fa-solid fa-arrow-right bg-rinterio-primary p-1.5 rounded-full -rotate-45"></i></button>
+                Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-gray-400">
+                <li><a class="font-extrabold">Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class=" space-x-6 ">
+                <a class="bg-gray-100 p-2 rounded-full" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                <a class="bg-gray-100 rounded-full p-2 " href=""><i class="fa-solid fa-cart-shopping"></i></a>
+
+                <a class="btn bg-rinterio-primary rounded-3xl text-xl font-extrabold">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full text-white p-1.5 "></i></a>
+                
+            </div>
+        </div>
+        <!-- Banner section -->
+        <div class="hero my-10 container mx-auto">
+            <div class="hero-content text-center">
+              <div class="">
+                <img class="mx-auto" src="images/banner.png" alt="">
+                <h1 class="text-6xl font-extrabold">A barn house of this design has a striking appearance</h1>
+                <p class="py-7 w-11/12 mx-auto">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+                <div class="bg-rinterio-secondary w-1/12 rounded-3xl p-1 mx-auto">
+                    <button class=" "><i class="fa-solid fa-arrow-right bg-rinterio-primary rounded-3xl p-2 -rotate-45"></i></button>
+                </div>
+              </div>
+            </div>
+        </div>
+     </header>
+
+     <!-- main section -->
+      <main class="container mx-auto">
+        <!-- About us section -->
+         <section class="absulote space-y-3 md:p-10 p-3">
+            <div class="relative right-16 top-4">
+                <img src="images/Vector.png" alt="">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 space-y-3 gap-5 items-center  mx-auto">
+                <div class="space-y-4">
+                    <button class="bg-white p-3 rounded-3xl"><i class="fa-solid fa-arrow-right"></i>About Us</button>
+                    <h2 class="text-4xl font-extrabold ">We design thoughtful, liveable spaces</h2>
+                    <p class="text-gray-primary ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <!-- commercial card -->
+                    <div class="bg-white p-5 flex rounded-lg space-x-4">
+                        <!-- icon -->
+                        <div>
+                            <img src="images/commercial.png" alt="">
+                        </div>
+                        <div class="">
+                            <h3 class="text-3xl font-extrabold  ">Commercial</h3>
+                            <p class="gray-primary">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <!-- Residential card -->
+                     <div class="bg-white p-5 flex rounded-lg space-x-4">
+                        <!-- icon -->
+                        <div>
+                            <img src="images/residential.png" alt="">
+                        </div>
+                        <div class="">
+                            <h3 class="text-3xl font-extrabold ">Residential</h3>
+                            <p class="gray-primary">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="w-100%">
+                    <img class="w-max" src="images/Rectangle.png" alt="">
+                </div>
+             </section>
+             <div class="h-10 w-full">
+                <h1>hello</h1>
+
+             </div>
+            </div>
+      </main>
+    
 </body>
 </html>
